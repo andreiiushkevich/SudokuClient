@@ -1,0 +1,11 @@
+input {
+  border:none;
+  width:24px;
+  height:24px;
+  font-size: 1em;
+  text-align: center;
+  padding: 0;
+  color: #0090FF;
+  outline: none;
+  font-family: inherit;
+}

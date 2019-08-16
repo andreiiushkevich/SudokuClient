@@ -1,0 +1,2 @@
+<input *ngIf="value === -1; else elseBlock" maxlength="1" #cell type="text" OnlyNumber="true" (keyup.enter)="onKeyUp(+cell.value)">
+<ng-template #elseBlock>{{value}}</ng-template>
