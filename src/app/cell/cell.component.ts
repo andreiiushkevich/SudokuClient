@@ -1,10 +1,11 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output, ViewEncapsulation} from '@angular/core';
 import {Cell} from '../cell';
 
 @Component({
   selector: 'app-cell',
   templateUrl: './cell.component.html',
-  styleUrls: ['./cell.component.css']
+  styleUrls: ['./cell.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class CellComponent implements OnInit {
 

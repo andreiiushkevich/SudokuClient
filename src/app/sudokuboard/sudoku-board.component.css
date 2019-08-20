@@ -11,10 +11,10 @@ td {
   padding: 0;
 }
 
-td.block0, td.block0 > input  {
+td.block0, td.block0 > app-cell > input  {
   background-color: #ffffff
 }
 
-td.block1, td.block1 > input  {
+td.block1, td.block1 > app-cell > input  {
   background-color: #ccebff;
 }

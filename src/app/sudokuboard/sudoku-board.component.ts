@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit, ViewEncapsulation} from '@angular/core';
 import {Cell} from '../cell';
 import {SudokuBoardService} from '../sudoku-board.service';
 import {IdentityService} from '../identity.service';
@@ -7,7 +7,8 @@ import {Subscription} from 'rxjs';
 @Component({
   selector: 'app-sudokuboard',
   templateUrl: './sudoku-board.component.html',
-  styleUrls: ['./sudoku-board.component.css']
+  styleUrls: ['./sudoku-board.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class SudokuBoardComponent implements OnInit, OnDestroy {
 
